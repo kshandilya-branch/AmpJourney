@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<script src="ua-parser.min.js"></script>
+<script>
+    // Now let's try a custom user-agent string as an example
+    var uastring1 = "Dalvik/2.1.0 (Linux; U; Android 9; Infinix X625B Build/PPR1.180610.011)";
+    parser.setUA(uastring1);
+    var result = parser.getResult();
+    // You can also use UAParser constructor directly without having to create an instance:
+    // var result = UAParser(uastring1);
+</script>
+</head>
+<body>
+</body>
+</html>
